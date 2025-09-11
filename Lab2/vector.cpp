@@ -26,7 +26,7 @@ printf("Vector - Each int is worth %lu bytes\n" , v.size()); // %lu is print or 
  * @param v - address to a vector of intengers
  */
 ///////////////////////////
- void incVecBy10(vector<int> &v){ //////////I do belive sizde still needs to be defined here tho
+ void incVecBy10(vector<int> &v){ //////////I do belive sizde still needs to be defined here tho //& bc we dont want a copy of the value we want to update it
     for(int i = 0; i < v.size(); i++){ 
         v[i] += 10;
     }
