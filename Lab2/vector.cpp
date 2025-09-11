@@ -8,12 +8,15 @@ using namespace std;
 *@param v - vectors of intergers 
 */
 
-void printMemVec(-------){
-////////code
+///////////////////////////////////
+void printMemVec(vector<int> v){ ///here we want a vector with a var(v) who is an intenger
+
+
+
 }
 
 
-//////////// function two goal is>>>>>>>>>>
+//////////// ////////////////////////////////////////function two goal is>>>>>>>>>>
 /**
  * @brief increments all the elments in v by 10
  * 
@@ -24,9 +27,11 @@ void printMemVec(-------){
 //////////code
  }
 
- int main(){
 
-    
+ ///////////////////////////////////////////////////////////////////////////////////////////////
+ int main(){
+const int SIZE = 5; ///////this holds the size of the array we would like I belive tis stays the same 
+
  }
 
 
