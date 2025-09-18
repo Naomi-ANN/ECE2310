@@ -11,7 +11,7 @@ int main(){
     printf("%s Current stats\n" ,p1.getName().c_str());
     printf("Hits Taken: %i\t Luck: %f\t Exp:%f\t Level:%i\n", p1.gethits_taken(),p1.getluck(),p1.getexp(),p1.getlevel());
 ///P2
-    printf("%s Current stats\n" ,p2.getName().c_str());
+    printf("%sCurrent stats\n" ,p2.getName().c_str());
     printf("Hits Taken: %i\t Luck: %f\t Exp:%f\t Level:%i\n", p2.gethits_taken(),p2.getluck(),p2.getexp(),p2.getlevel());
 
 
@@ -19,16 +19,17 @@ int main(){
 p1.setHitsTaken(0);
 p2.setHitsTaken(0);
 
-cout<<"\nP1 hits taken";
+cout<<"\nP1 hits taken ";
 cout<<p1.gethits_taken();
 
-cout<<"\nP2 hits taken";
+cout<<"\nP2 hits taken ";
 cout<<p2.gethits_taken();
+cout<<"\n";
 
 
-////////////NOt done rn 
-cout<<"0 is dead, 1 is alive\n";
-cout<<p1.isAlive();
+cout<<"0 is dead, 1 is alive\n ";
+cout<<p1.isAlive();//How do I add new lines here 
+cout<<"\n";//new line added here for neatness
 cout<<p2.isAlive();
 
 return 0;
