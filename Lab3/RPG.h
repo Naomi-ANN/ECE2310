@@ -11,7 +11,7 @@ class RPG{
     public:
     //constructors
     RPG(); //default
-    RPG(string name, int hits_taken, float luck, float exp, int leevel); //overloaded
+    RPG(string name, int hits_taken, float luck, float exp, int level); //overloaded
 
     //mutactors (func that chnages vars???)
     bool isAlive()const;
@@ -23,7 +23,6 @@ class RPG{
     float getluck() const;
     float getexp() const;
     int getlevel() const;
-    ///////////////////////////////////////////////////COMPLETE THE REST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     private:
     string name;
