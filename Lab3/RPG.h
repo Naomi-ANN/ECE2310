@@ -35,4 +35,4 @@ class RPG{
 
 
 
-#endif RPG_H // why do I need the name here???
+#endif // RPG_H // why do I need the name here???
