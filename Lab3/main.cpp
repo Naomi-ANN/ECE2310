@@ -19,15 +19,16 @@ int main(){
 p1.setHitsTaken(0);
 p2.setHitsTaken(0);
 
+//hits taken mutator is not workin!!!!!! - numbers are not changing are they meant to change???
 cout<<"\nP1 hits taken ";
-cout<<p1.gethits_taken();
+cout<<p1.gethits_taken()<<endl;
 
 cout<<"\nP2 hits taken ";
 cout<<p2.gethits_taken();
 cout<<"\n";
 
-
-cout<<"0 is dead, 1 is alive\n ";
+//isAlive mutator is not working
+cout<<"0 is dead, 1 is alive\n " <<endl;
 cout<<p1.isAlive();//How do I add new lines here 
 cout<<"\n";//new line added here for neatness
 cout<<p2.isAlive();

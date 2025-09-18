@@ -1,14 +1,15 @@
 ///using namespace std;
+#include <iostream>
 #include <string>
 #include "RPG.h"
 
 //RPG::(scope) we set default values
 RPG::RPG(){
-    name = "";
-    hits_taken = 0;
-    luck = 0;
-    exp = 0;
-    level = 0;
+   this-> name = "";
+   this-> hits_taken = 0;
+   this-> luck = 0;
+   this-> exp = 0;
+  this->  level = 0;
 }
 
 // this scope ties the constructor in .cppp to the .h files 
@@ -37,6 +38,7 @@ void RPG::setHitsTaken(int new_hits){
  */
 bool RPG::isAlive()const{
 
+    //should this be and if else stament , 
     if(hits_taken < MAX_HITS_TAKEN){
         return true;
     }else{
