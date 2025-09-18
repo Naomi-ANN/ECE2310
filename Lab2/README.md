@@ -10,3 +10,6 @@ hours spent 3/3.5ish
 
 ### Part 2 Screenshot:
 ![alt text](<images/Screenshot 2025-09-11 at 3.46.03 PM.png>)
+
+#### Corrected output with code 
+![alt text](<images/Screenshot 2025-09-18 at 3.40.31 PM.png>)
