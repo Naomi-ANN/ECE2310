@@ -32,7 +32,4 @@ class RPG{
     int level;
 
 };
-
-
-
 #endif // RPG_H // why do I need the name here???
