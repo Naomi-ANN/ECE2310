@@ -1,7 +1,13 @@
-created a 
-RPG.cpp -
-main.cpp - 
-RPG.h - has a public and private 
+Alexandra Nevell 
+2310 Lab #3
+RPG game 
 
-Images:
+files created:
+1.RPG.h - has all our variables 
+2.RPG.cpp - returns our vars 
+3.main.cpp - prints everything
+
+Image:
+<Lab3/image/Screenshot 2025-10-01 at 9.39.23 PM.png>
+
 
