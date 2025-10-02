@@ -14,7 +14,7 @@ printf("Vector - Each int is worth %lu bytes\n" , v.size()); // %lu is print or 
 
         for(int i = 0; i < v.size(); i++){  /// I need to define size
 
-        printf("Value: %i at Memory Location: %p\n",v[i] ,&v+i); // &v prints the address 
+        printf("Value: %i at Memory Location: %p\n",v[i] ,(&v+i)); // &v prints the address +i to increase the address based on change of number
         }
 }
 
