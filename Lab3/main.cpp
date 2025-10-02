@@ -31,7 +31,7 @@ cout<<"\n";
 cout<<"0 is dead, 1 is alive\n " <<endl;
 cout<<"player 1: "<<p1.isAlive();//should be dead here bc its taken is 3
 cout<<"\n";//new line added here for neatness
-cout<<"player 2: "<<p2.isAlive();//should be alive bc test is 0
+cout<<"player 2: "<<p2.isAlive()<<"\n";//should be alive bc test is 0
 
 return 0;
 }
