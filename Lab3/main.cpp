@@ -14,9 +14,9 @@ int main(){
     printf("%sCurrent stats\n" ,p2.getName().c_str());
     printf("Hits Taken: %i\t Luck: %f\t Exp:%f\t Level:%i\n", p2.gethits_taken(),p2.getluck(),p2.getexp(),p2.getlevel());
 
-
 ///call setHitsTaken
-p1.setHitsTaken(0);
+//put 3 here to make it do the test to see if isAlive works
+p1.setHitsTaken(3);
 p2.setHitsTaken(0);
 
 //hits taken mutator is not workin!!!!!! - numbers are not changing are they meant to change???
